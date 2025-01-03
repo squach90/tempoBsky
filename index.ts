@@ -150,9 +150,6 @@ async function mainTomorrow() {
 
 console.log(new Date().toLocaleTimeString());
 
-mainToday();
-mainTomorrow();
-
 // Fonction pour garder le bot actif
 async function keepAlive() {
   try {
