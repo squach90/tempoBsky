@@ -58,7 +58,7 @@ async function getTempoAndNotify() {
       tempoDay = "🔴 Rouge";
     }
     console.log(`Aujourd'hui (${formattedDate}) Tempo EDF: ${tempoDay}`);
-    const text = `Demain (${formattedDate}) Tempo EDF: ${tempoDay}`;
+    const text = `Aujourd'hui (${formattedDate}) Tempo EDF: ${tempoDay}`;
     return text;
   } catch (error) {
     console.error("Erreur lors de la récupération des données Tempo:", error);
