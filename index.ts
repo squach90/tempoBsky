@@ -9,7 +9,7 @@ dotenv.config();
 const tempoAPI = "https://www.api-couleur-tempo.fr/api/jourTempo/today";
 const tempoAPItomorrow =
   "https://www.api-couleur-tempo.fr/api/jourTempo/tomorrow";
-const serverURL = "https://tempobotbsky.onrender.com";
+const serverURL = "https://tempobsky.onrender.com";
 
 // Create a Bluesky Agent
 const agent = new BskyAgent({
