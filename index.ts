@@ -51,11 +51,14 @@ async function getTempoAndNotify() {
     }
 
     if (tempoDay == "2") {
-      tempoDay = "⚪️ Blanc";
+      tempoDay =
+        "⚪️ Blanc \nLe blanc, c'est la couleur de la paix… ou d'une tasse de café vide.";
     } else if (tempoDay == "1") {
-      tempoDay = "🔵 Bleu";
+      tempoDay =
+        "🔵 Bleu \nBleu comme le fond d'écran par défaut sur les PC des années 2000.";
     } else if (tempoDay == "3") {
-      tempoDay = "🔴 Rouge";
+      tempoDay =
+        "🔴 Rouge \nSi c'est rouge, c'est soit un feu de circulation, soit un dragon qui a mangé trop épicé.";
     }
     console.log(`Aujourd'hui (${formattedDate}) Tempo EDF: ${tempoDay}`);
     const text = `Aujourd'hui (${formattedDate}) Tempo EDF: ${tempoDay}`;
@@ -105,11 +108,14 @@ async function getTomorrow() {
     }
 
     if (tempoDay == "2") {
-      tempoDay = "⚪️ Blanc";
+      tempoDay =
+        "⚪️ Blanc \nLe blanc, c'est la couleur de la paix… ou d'une tasse de café vide.";
     } else if (tempoDay == "1") {
-      tempoDay = "🔵 Bleu";
+      tempoDay =
+        "🔵 Bleu \nBleu comme le fond d'écran par défaut sur les PC des années 2000.";
     } else if (tempoDay == "3") {
-      tempoDay = "🔴 Rouge";
+      tempoDay =
+        "🔴 Rouge \nSi c'est rouge, c'est soit un feu de circulation, soit un dragon qui a mangé trop épicé.";
     }
 
     console.log(`Notification envoyée pour le ${formattedDate}: ${tempoDay}`);
